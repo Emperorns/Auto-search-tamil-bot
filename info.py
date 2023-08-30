@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25377875'))
 API_HASH = environ.get('API_HASH', 'cf80e342be48570ca2e4c9d2c7695413')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6495773759:AAH2-eriHwtBw7af1r0RZia83eJawVVMAFs")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,13 +43,13 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Lazyprimcessnoob:nehalsingh969797@cluster0.x7ml2ni.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "rose")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #stream feature - @TeamHMT_Bots
 STREAM_BIN = environ.get("STREAM_BIN", "-1001748572062") #Log channel/Bin Channel id -100xxxxxxx
-STREAM_URL = environ.get("STREAM_URL", "") # https://example.com/ (Your Stream Url)
+STREAM_URL = environ.get("STREAM_URL", "https://lazyprince.onrender.com") # https://example.com/ (Your Stream Url)
 IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 #Use this feature, if you have deployed file to link bot. paste the app url with stream url and add filter bot as admin in bin channel and add id in stream bin
 
